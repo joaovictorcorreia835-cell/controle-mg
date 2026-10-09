@@ -1,0 +1,4 @@
+{% macro badge(status) %}<span class="status status-{{status}}">{{status|label}}</span>{% endmacro %}
+{% macro csrf() %}<input type="hidden" name="csrf_token" value="{{csrf_token()}}">{% endmacro %}
+{% macro pagination(p) %}{% if p.pages>1 %}<nav class="mt-3 d-flex gap-2">{% for page in p.iter_pages() %}{% if page %}<a class="btn btn-sm {{'btn-primary' if page==p.page else 'btn-outline-secondary'}}" href="{{page_url(page)}}">{{page}}</a>{% else %}<span>…</span>{% endif %}{% endfor %}</nav>{% endif %}{% endmacro %}
+{% macro heading(title,subtitle='') %}<div class="page-heading"><div><div class="eyebrow">CONTROLE MG / {{title|upper}}</div><h1>{{title}}</h1><p>{{subtitle}}</p></div></div>{% endmacro %}

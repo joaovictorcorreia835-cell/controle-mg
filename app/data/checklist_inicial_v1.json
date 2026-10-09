@@ -1,0 +1,2166 @@
+{
+  "categorias": [
+    "INSPEÇÃO VISUAL",
+    "PARTE ELÉTRICA",
+    "CABOS E CONEXÕES",
+    "SISTEMA ELETRÔNICO",
+    "SISTEMA DE REFRIGERAÇÃO",
+    "SISTEMA DE SOLDA",
+    "ACESSÓRIOS",
+    "TESTE FUNCIONAL",
+    "LIMPEZA",
+    "MOTOR",
+    "SISTEMA DE COMBUSTÍVEL",
+    "SISTEMA ELÉTRICO",
+    "GERAÇÃO",
+    "BATERIA",
+    "ÓLEO/LUBRIFICAÇÃO",
+    "REFRIGERAÇÃO"
+  ],
+  "tipos": [
+    {
+      "nome": "LHN 242",
+      "itens": [
+        {
+          "componente": "Carcaça",
+          "categoria": "INSPEÇÃO VISUAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 1,
+          "ativo": true
+        },
+        {
+          "componente": "Alça",
+          "categoria": "INSPEÇÃO VISUAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 2,
+          "ativo": true
+        },
+        {
+          "componente": "Parafusos",
+          "categoria": "INSPEÇÃO VISUAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 3,
+          "ativo": true
+        },
+        {
+          "componente": "Painel frontal",
+          "categoria": "INSPEÇÃO VISUAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 4,
+          "ativo": true
+        },
+        {
+          "componente": "Cabo de alimentação",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 5,
+          "ativo": true
+        },
+        {
+          "componente": "Plugue de alimentação",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 6,
+          "ativo": true
+        },
+        {
+          "componente": "Conectores",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 7,
+          "ativo": true
+        },
+        {
+          "componente": "Terminais",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 8,
+          "ativo": true
+        },
+        {
+          "componente": "Chaves",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 9,
+          "ativo": true
+        },
+        {
+          "componente": "Aterramento de proteção",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 10,
+          "ativo": true
+        },
+        {
+          "componente": "Retificador",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 11,
+          "ativo": true
+        },
+        {
+          "componente": "Capacitores",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 12,
+          "ativo": true
+        },
+        {
+          "componente": "Placa eletrônica",
+          "categoria": "SISTEMA ELETRÔNICO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 13,
+          "ativo": true
+        },
+        {
+          "componente": "Display",
+          "categoria": "SISTEMA ELETRÔNICO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 14,
+          "ativo": true
+        },
+        {
+          "componente": "Potenciômetros",
+          "categoria": "SISTEMA ELETRÔNICO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 15,
+          "ativo": true
+        },
+        {
+          "componente": "Ventilador",
+          "categoria": "SISTEMA DE REFRIGERAÇÃO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 16,
+          "ativo": true
+        },
+        {
+          "componente": "Sistema de refrigeração",
+          "categoria": "SISTEMA DE REFRIGERAÇÃO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 17,
+          "ativo": true
+        },
+        {
+          "componente": "Limpeza interna",
+          "categoria": "LIMPEZA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 18,
+          "ativo": true
+        },
+        {
+          "componente": "Limpeza externa",
+          "categoria": "LIMPEZA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 19,
+          "ativo": true
+        },
+        {
+          "componente": "Teste elétrico",
+          "categoria": "TESTE FUNCIONAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 20,
+          "ativo": true
+        },
+        {
+          "componente": "Teste inicial de funcionamento",
+          "categoria": "TESTE FUNCIONAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 21,
+          "ativo": true
+        },
+        {
+          "componente": "Cabo de solda",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 22,
+          "ativo": true
+        },
+        {
+          "componente": "Cabo terra",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 23,
+          "ativo": true
+        },
+        {
+          "componente": "Garra negativa",
+          "categoria": "ACESSÓRIOS",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 24,
+          "ativo": true
+        },
+        {
+          "componente": "Porta-eletrodo",
+          "categoria": "SISTEMA DE SOLDA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 25,
+          "ativo": true
+        },
+        {
+          "componente": "Módulo inversor",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 26,
+          "ativo": true
+        },
+        {
+          "componente": "Controle de corrente LHN 242",
+          "categoria": "SISTEMA ELETRÔNICO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 27,
+          "ativo": true
+        },
+        {
+          "componente": "Teste de soldagem LHN 242",
+          "categoria": "TESTE FUNCIONAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 28,
+          "ativo": true
+        }
+      ]
+    },
+    {
+      "nome": "ARC 240",
+      "itens": [
+        {
+          "componente": "Carcaça",
+          "categoria": "INSPEÇÃO VISUAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 1,
+          "ativo": true
+        },
+        {
+          "componente": "Alça",
+          "categoria": "INSPEÇÃO VISUAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 2,
+          "ativo": true
+        },
+        {
+          "componente": "Parafusos",
+          "categoria": "INSPEÇÃO VISUAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 3,
+          "ativo": true
+        },
+        {
+          "componente": "Painel frontal",
+          "categoria": "INSPEÇÃO VISUAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 4,
+          "ativo": true
+        },
+        {
+          "componente": "Cabo de alimentação",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 5,
+          "ativo": true
+        },
+        {
+          "componente": "Plugue de alimentação",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 6,
+          "ativo": true
+        },
+        {
+          "componente": "Conectores",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 7,
+          "ativo": true
+        },
+        {
+          "componente": "Terminais",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 8,
+          "ativo": true
+        },
+        {
+          "componente": "Chaves",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 9,
+          "ativo": true
+        },
+        {
+          "componente": "Aterramento de proteção",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 10,
+          "ativo": true
+        },
+        {
+          "componente": "Retificador",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 11,
+          "ativo": true
+        },
+        {
+          "componente": "Capacitores",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 12,
+          "ativo": true
+        },
+        {
+          "componente": "Placa eletrônica",
+          "categoria": "SISTEMA ELETRÔNICO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 13,
+          "ativo": true
+        },
+        {
+          "componente": "Display",
+          "categoria": "SISTEMA ELETRÔNICO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 14,
+          "ativo": true
+        },
+        {
+          "componente": "Potenciômetros",
+          "categoria": "SISTEMA ELETRÔNICO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 15,
+          "ativo": true
+        },
+        {
+          "componente": "Ventilador",
+          "categoria": "SISTEMA DE REFRIGERAÇÃO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 16,
+          "ativo": true
+        },
+        {
+          "componente": "Sistema de refrigeração",
+          "categoria": "SISTEMA DE REFRIGERAÇÃO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 17,
+          "ativo": true
+        },
+        {
+          "componente": "Limpeza interna",
+          "categoria": "LIMPEZA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 18,
+          "ativo": true
+        },
+        {
+          "componente": "Limpeza externa",
+          "categoria": "LIMPEZA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 19,
+          "ativo": true
+        },
+        {
+          "componente": "Teste elétrico",
+          "categoria": "TESTE FUNCIONAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 20,
+          "ativo": true
+        },
+        {
+          "componente": "Teste inicial de funcionamento",
+          "categoria": "TESTE FUNCIONAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 21,
+          "ativo": true
+        },
+        {
+          "componente": "Cabo de solda",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 22,
+          "ativo": true
+        },
+        {
+          "componente": "Cabo terra",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 23,
+          "ativo": true
+        },
+        {
+          "componente": "Garra negativa",
+          "categoria": "ACESSÓRIOS",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 24,
+          "ativo": true
+        },
+        {
+          "componente": "Porta-eletrodo",
+          "categoria": "SISTEMA DE SOLDA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 25,
+          "ativo": true
+        },
+        {
+          "componente": "Transformador de potência",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 26,
+          "ativo": true
+        },
+        {
+          "componente": "Controle de corrente ARC 240",
+          "categoria": "SISTEMA ELETRÔNICO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 27,
+          "ativo": true
+        },
+        {
+          "componente": "Teste de soldagem ARC 240",
+          "categoria": "TESTE FUNCIONAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 28,
+          "ativo": true
+        }
+      ]
+    },
+    {
+      "nome": "ARC 300",
+      "itens": [
+        {
+          "componente": "Carcaça",
+          "categoria": "INSPEÇÃO VISUAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 1,
+          "ativo": true
+        },
+        {
+          "componente": "Alça",
+          "categoria": "INSPEÇÃO VISUAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 2,
+          "ativo": true
+        },
+        {
+          "componente": "Parafusos",
+          "categoria": "INSPEÇÃO VISUAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 3,
+          "ativo": true
+        },
+        {
+          "componente": "Painel frontal",
+          "categoria": "INSPEÇÃO VISUAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 4,
+          "ativo": true
+        },
+        {
+          "componente": "Cabo de alimentação",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 5,
+          "ativo": true
+        },
+        {
+          "componente": "Plugue de alimentação",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 6,
+          "ativo": true
+        },
+        {
+          "componente": "Conectores",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 7,
+          "ativo": true
+        },
+        {
+          "componente": "Terminais",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 8,
+          "ativo": true
+        },
+        {
+          "componente": "Chaves",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 9,
+          "ativo": true
+        },
+        {
+          "componente": "Aterramento de proteção",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 10,
+          "ativo": true
+        },
+        {
+          "componente": "Retificador",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 11,
+          "ativo": true
+        },
+        {
+          "componente": "Capacitores",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 12,
+          "ativo": true
+        },
+        {
+          "componente": "Placa eletrônica",
+          "categoria": "SISTEMA ELETRÔNICO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 13,
+          "ativo": true
+        },
+        {
+          "componente": "Display",
+          "categoria": "SISTEMA ELETRÔNICO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 14,
+          "ativo": true
+        },
+        {
+          "componente": "Potenciômetros",
+          "categoria": "SISTEMA ELETRÔNICO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 15,
+          "ativo": true
+        },
+        {
+          "componente": "Ventilador",
+          "categoria": "SISTEMA DE REFRIGERAÇÃO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 16,
+          "ativo": true
+        },
+        {
+          "componente": "Sistema de refrigeração",
+          "categoria": "SISTEMA DE REFRIGERAÇÃO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 17,
+          "ativo": true
+        },
+        {
+          "componente": "Limpeza interna",
+          "categoria": "LIMPEZA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 18,
+          "ativo": true
+        },
+        {
+          "componente": "Limpeza externa",
+          "categoria": "LIMPEZA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 19,
+          "ativo": true
+        },
+        {
+          "componente": "Teste elétrico",
+          "categoria": "TESTE FUNCIONAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 20,
+          "ativo": true
+        },
+        {
+          "componente": "Teste inicial de funcionamento",
+          "categoria": "TESTE FUNCIONAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 21,
+          "ativo": true
+        },
+        {
+          "componente": "Cabo de solda",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 22,
+          "ativo": true
+        },
+        {
+          "componente": "Cabo terra",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 23,
+          "ativo": true
+        },
+        {
+          "componente": "Garra negativa",
+          "categoria": "ACESSÓRIOS",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 24,
+          "ativo": true
+        },
+        {
+          "componente": "Porta-eletrodo",
+          "categoria": "SISTEMA DE SOLDA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 25,
+          "ativo": true
+        },
+        {
+          "componente": "Transformador de potência",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 26,
+          "ativo": true
+        },
+        {
+          "componente": "Controle de corrente ARC 300",
+          "categoria": "SISTEMA ELETRÔNICO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 27,
+          "ativo": true
+        },
+        {
+          "componente": "Teste de soldagem ARC 300",
+          "categoria": "TESTE FUNCIONAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 28,
+          "ativo": true
+        }
+      ]
+    },
+    {
+      "nome": "ARC 400",
+      "itens": [
+        {
+          "componente": "Carcaça",
+          "categoria": "INSPEÇÃO VISUAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 1,
+          "ativo": true
+        },
+        {
+          "componente": "Alça",
+          "categoria": "INSPEÇÃO VISUAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 2,
+          "ativo": true
+        },
+        {
+          "componente": "Parafusos",
+          "categoria": "INSPEÇÃO VISUAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 3,
+          "ativo": true
+        },
+        {
+          "componente": "Painel frontal",
+          "categoria": "INSPEÇÃO VISUAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 4,
+          "ativo": true
+        },
+        {
+          "componente": "Cabo de alimentação",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 5,
+          "ativo": true
+        },
+        {
+          "componente": "Plugue de alimentação",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 6,
+          "ativo": true
+        },
+        {
+          "componente": "Conectores",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 7,
+          "ativo": true
+        },
+        {
+          "componente": "Terminais",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 8,
+          "ativo": true
+        },
+        {
+          "componente": "Chaves",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 9,
+          "ativo": true
+        },
+        {
+          "componente": "Aterramento de proteção",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 10,
+          "ativo": true
+        },
+        {
+          "componente": "Retificador",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 11,
+          "ativo": true
+        },
+        {
+          "componente": "Capacitores",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 12,
+          "ativo": true
+        },
+        {
+          "componente": "Placa eletrônica",
+          "categoria": "SISTEMA ELETRÔNICO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 13,
+          "ativo": true
+        },
+        {
+          "componente": "Display",
+          "categoria": "SISTEMA ELETRÔNICO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 14,
+          "ativo": true
+        },
+        {
+          "componente": "Potenciômetros",
+          "categoria": "SISTEMA ELETRÔNICO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 15,
+          "ativo": true
+        },
+        {
+          "componente": "Ventilador",
+          "categoria": "SISTEMA DE REFRIGERAÇÃO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 16,
+          "ativo": true
+        },
+        {
+          "componente": "Sistema de refrigeração",
+          "categoria": "SISTEMA DE REFRIGERAÇÃO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 17,
+          "ativo": true
+        },
+        {
+          "componente": "Limpeza interna",
+          "categoria": "LIMPEZA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 18,
+          "ativo": true
+        },
+        {
+          "componente": "Limpeza externa",
+          "categoria": "LIMPEZA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 19,
+          "ativo": true
+        },
+        {
+          "componente": "Teste elétrico",
+          "categoria": "TESTE FUNCIONAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 20,
+          "ativo": true
+        },
+        {
+          "componente": "Teste inicial de funcionamento",
+          "categoria": "TESTE FUNCIONAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 21,
+          "ativo": true
+        },
+        {
+          "componente": "Cabo de solda",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 22,
+          "ativo": true
+        },
+        {
+          "componente": "Cabo terra",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 23,
+          "ativo": true
+        },
+        {
+          "componente": "Garra negativa",
+          "categoria": "ACESSÓRIOS",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 24,
+          "ativo": true
+        },
+        {
+          "componente": "Porta-eletrodo",
+          "categoria": "SISTEMA DE SOLDA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 25,
+          "ativo": true
+        },
+        {
+          "componente": "Transformador de potência",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 26,
+          "ativo": true
+        },
+        {
+          "componente": "Controle de corrente ARC 400",
+          "categoria": "SISTEMA ELETRÔNICO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 27,
+          "ativo": true
+        },
+        {
+          "componente": "Teste de soldagem ARC 400",
+          "categoria": "TESTE FUNCIONAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 28,
+          "ativo": true
+        }
+      ]
+    },
+    {
+      "nome": "ARC 700",
+      "itens": [
+        {
+          "componente": "Carcaça",
+          "categoria": "INSPEÇÃO VISUAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 1,
+          "ativo": true
+        },
+        {
+          "componente": "Alça",
+          "categoria": "INSPEÇÃO VISUAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 2,
+          "ativo": true
+        },
+        {
+          "componente": "Parafusos",
+          "categoria": "INSPEÇÃO VISUAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 3,
+          "ativo": true
+        },
+        {
+          "componente": "Painel frontal",
+          "categoria": "INSPEÇÃO VISUAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 4,
+          "ativo": true
+        },
+        {
+          "componente": "Cabo de alimentação",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 5,
+          "ativo": true
+        },
+        {
+          "componente": "Plugue de alimentação",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 6,
+          "ativo": true
+        },
+        {
+          "componente": "Conectores",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 7,
+          "ativo": true
+        },
+        {
+          "componente": "Terminais",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 8,
+          "ativo": true
+        },
+        {
+          "componente": "Chaves",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 9,
+          "ativo": true
+        },
+        {
+          "componente": "Aterramento de proteção",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 10,
+          "ativo": true
+        },
+        {
+          "componente": "Retificador",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 11,
+          "ativo": true
+        },
+        {
+          "componente": "Capacitores",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 12,
+          "ativo": true
+        },
+        {
+          "componente": "Placa eletrônica",
+          "categoria": "SISTEMA ELETRÔNICO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 13,
+          "ativo": true
+        },
+        {
+          "componente": "Display",
+          "categoria": "SISTEMA ELETRÔNICO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 14,
+          "ativo": true
+        },
+        {
+          "componente": "Potenciômetros",
+          "categoria": "SISTEMA ELETRÔNICO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 15,
+          "ativo": true
+        },
+        {
+          "componente": "Ventilador",
+          "categoria": "SISTEMA DE REFRIGERAÇÃO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 16,
+          "ativo": true
+        },
+        {
+          "componente": "Sistema de refrigeração",
+          "categoria": "SISTEMA DE REFRIGERAÇÃO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 17,
+          "ativo": true
+        },
+        {
+          "componente": "Limpeza interna",
+          "categoria": "LIMPEZA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 18,
+          "ativo": true
+        },
+        {
+          "componente": "Limpeza externa",
+          "categoria": "LIMPEZA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 19,
+          "ativo": true
+        },
+        {
+          "componente": "Teste elétrico",
+          "categoria": "TESTE FUNCIONAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 20,
+          "ativo": true
+        },
+        {
+          "componente": "Teste inicial de funcionamento",
+          "categoria": "TESTE FUNCIONAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 21,
+          "ativo": true
+        },
+        {
+          "componente": "Cabo de solda",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 22,
+          "ativo": true
+        },
+        {
+          "componente": "Cabo terra",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 23,
+          "ativo": true
+        },
+        {
+          "componente": "Garra negativa",
+          "categoria": "ACESSÓRIOS",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 24,
+          "ativo": true
+        },
+        {
+          "componente": "Porta-eletrodo",
+          "categoria": "SISTEMA DE SOLDA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 25,
+          "ativo": true
+        },
+        {
+          "componente": "Transformador de potência",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 26,
+          "ativo": true
+        },
+        {
+          "componente": "Controle de corrente ARC 700",
+          "categoria": "SISTEMA ELETRÔNICO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 27,
+          "ativo": true
+        },
+        {
+          "componente": "Teste de soldagem ARC 700",
+          "categoria": "TESTE FUNCIONAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 28,
+          "ativo": true
+        }
+      ]
+    },
+    {
+      "nome": "MIG",
+      "itens": [
+        {
+          "componente": "Carcaça",
+          "categoria": "INSPEÇÃO VISUAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 1,
+          "ativo": true
+        },
+        {
+          "componente": "Alça",
+          "categoria": "INSPEÇÃO VISUAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 2,
+          "ativo": true
+        },
+        {
+          "componente": "Parafusos",
+          "categoria": "INSPEÇÃO VISUAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 3,
+          "ativo": true
+        },
+        {
+          "componente": "Painel frontal",
+          "categoria": "INSPEÇÃO VISUAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 4,
+          "ativo": true
+        },
+        {
+          "componente": "Cabo de alimentação",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 5,
+          "ativo": true
+        },
+        {
+          "componente": "Plugue de alimentação",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 6,
+          "ativo": true
+        },
+        {
+          "componente": "Conectores",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 7,
+          "ativo": true
+        },
+        {
+          "componente": "Terminais",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 8,
+          "ativo": true
+        },
+        {
+          "componente": "Chaves",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 9,
+          "ativo": true
+        },
+        {
+          "componente": "Aterramento de proteção",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 10,
+          "ativo": true
+        },
+        {
+          "componente": "Retificador",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 11,
+          "ativo": true
+        },
+        {
+          "componente": "Capacitores",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 12,
+          "ativo": true
+        },
+        {
+          "componente": "Placa eletrônica",
+          "categoria": "SISTEMA ELETRÔNICO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 13,
+          "ativo": true
+        },
+        {
+          "componente": "Display",
+          "categoria": "SISTEMA ELETRÔNICO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 14,
+          "ativo": true
+        },
+        {
+          "componente": "Potenciômetros",
+          "categoria": "SISTEMA ELETRÔNICO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 15,
+          "ativo": true
+        },
+        {
+          "componente": "Ventilador",
+          "categoria": "SISTEMA DE REFRIGERAÇÃO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 16,
+          "ativo": true
+        },
+        {
+          "componente": "Sistema de refrigeração",
+          "categoria": "SISTEMA DE REFRIGERAÇÃO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 17,
+          "ativo": true
+        },
+        {
+          "componente": "Limpeza interna",
+          "categoria": "LIMPEZA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 18,
+          "ativo": true
+        },
+        {
+          "componente": "Limpeza externa",
+          "categoria": "LIMPEZA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 19,
+          "ativo": true
+        },
+        {
+          "componente": "Teste elétrico",
+          "categoria": "TESTE FUNCIONAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 20,
+          "ativo": true
+        },
+        {
+          "componente": "Teste inicial de funcionamento",
+          "categoria": "TESTE FUNCIONAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 21,
+          "ativo": true
+        },
+        {
+          "componente": "Cabo de solda",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 22,
+          "ativo": true
+        },
+        {
+          "componente": "Cabo terra",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 23,
+          "ativo": true
+        },
+        {
+          "componente": "Garra negativa",
+          "categoria": "ACESSÓRIOS",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 24,
+          "ativo": true
+        },
+        {
+          "componente": "Tocha MIG/MAG",
+          "categoria": "SISTEMA DE SOLDA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 25,
+          "ativo": true
+        },
+        {
+          "componente": "Sistema de alimentação de arame",
+          "categoria": "SISTEMA DE SOLDA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 26,
+          "ativo": true
+        },
+        {
+          "componente": "Roldanas",
+          "categoria": "SISTEMA DE SOLDA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 27,
+          "ativo": true
+        },
+        {
+          "componente": "Motor alimentador",
+          "categoria": "SISTEMA DE SOLDA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 28,
+          "ativo": true
+        },
+        {
+          "componente": "Bico de contato",
+          "categoria": "SISTEMA DE SOLDA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 29,
+          "ativo": true
+        },
+        {
+          "componente": "Bocal da tocha",
+          "categoria": "SISTEMA DE SOLDA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 30,
+          "ativo": true
+        },
+        {
+          "componente": "Guia de arame",
+          "categoria": "SISTEMA DE SOLDA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 31,
+          "ativo": true
+        },
+        {
+          "componente": "Válvula de gás",
+          "categoria": "SISTEMA DE SOLDA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 32,
+          "ativo": true
+        },
+        {
+          "componente": "Mangueiras",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 33,
+          "ativo": true
+        },
+        {
+          "componente": "Regulador de gás",
+          "categoria": "ACESSÓRIOS",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 34,
+          "ativo": true
+        },
+        {
+          "componente": "Rodas",
+          "categoria": "INSPEÇÃO VISUAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 35,
+          "ativo": true
+        },
+        {
+          "componente": "Teste de soldagem MIG",
+          "categoria": "TESTE FUNCIONAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 36,
+          "ativo": true
+        }
+      ]
+    },
+    {
+      "nome": "TIG",
+      "itens": [
+        {
+          "componente": "Carcaça",
+          "categoria": "INSPEÇÃO VISUAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 1,
+          "ativo": true
+        },
+        {
+          "componente": "Alça",
+          "categoria": "INSPEÇÃO VISUAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 2,
+          "ativo": true
+        },
+        {
+          "componente": "Parafusos",
+          "categoria": "INSPEÇÃO VISUAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 3,
+          "ativo": true
+        },
+        {
+          "componente": "Painel frontal",
+          "categoria": "INSPEÇÃO VISUAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 4,
+          "ativo": true
+        },
+        {
+          "componente": "Cabo de alimentação",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 5,
+          "ativo": true
+        },
+        {
+          "componente": "Plugue de alimentação",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 6,
+          "ativo": true
+        },
+        {
+          "componente": "Conectores",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 7,
+          "ativo": true
+        },
+        {
+          "componente": "Terminais",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 8,
+          "ativo": true
+        },
+        {
+          "componente": "Chaves",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 9,
+          "ativo": true
+        },
+        {
+          "componente": "Aterramento de proteção",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 10,
+          "ativo": true
+        },
+        {
+          "componente": "Retificador",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 11,
+          "ativo": true
+        },
+        {
+          "componente": "Capacitores",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 12,
+          "ativo": true
+        },
+        {
+          "componente": "Placa eletrônica",
+          "categoria": "SISTEMA ELETRÔNICO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 13,
+          "ativo": true
+        },
+        {
+          "componente": "Display",
+          "categoria": "SISTEMA ELETRÔNICO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 14,
+          "ativo": true
+        },
+        {
+          "componente": "Potenciômetros",
+          "categoria": "SISTEMA ELETRÔNICO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 15,
+          "ativo": true
+        },
+        {
+          "componente": "Ventilador",
+          "categoria": "SISTEMA DE REFRIGERAÇÃO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 16,
+          "ativo": true
+        },
+        {
+          "componente": "Sistema de refrigeração",
+          "categoria": "SISTEMA DE REFRIGERAÇÃO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 17,
+          "ativo": true
+        },
+        {
+          "componente": "Limpeza interna",
+          "categoria": "LIMPEZA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 18,
+          "ativo": true
+        },
+        {
+          "componente": "Limpeza externa",
+          "categoria": "LIMPEZA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 19,
+          "ativo": true
+        },
+        {
+          "componente": "Teste elétrico",
+          "categoria": "TESTE FUNCIONAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 20,
+          "ativo": true
+        },
+        {
+          "componente": "Teste inicial de funcionamento",
+          "categoria": "TESTE FUNCIONAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 21,
+          "ativo": true
+        },
+        {
+          "componente": "Cabo de solda",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 22,
+          "ativo": true
+        },
+        {
+          "componente": "Cabo terra",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 23,
+          "ativo": true
+        },
+        {
+          "componente": "Garra negativa",
+          "categoria": "ACESSÓRIOS",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 24,
+          "ativo": true
+        },
+        {
+          "componente": "Tocha TIG",
+          "categoria": "SISTEMA DE SOLDA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 25,
+          "ativo": true
+        },
+        {
+          "componente": "Pinça e porta-pinça",
+          "categoria": "SISTEMA DE SOLDA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 26,
+          "ativo": true
+        },
+        {
+          "componente": "Eletrodo de tungstênio",
+          "categoria": "SISTEMA DE SOLDA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 27,
+          "ativo": true
+        },
+        {
+          "componente": "Bocal cerâmico",
+          "categoria": "SISTEMA DE SOLDA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 28,
+          "ativo": true
+        },
+        {
+          "componente": "Válvula de gás",
+          "categoria": "SISTEMA DE SOLDA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 29,
+          "ativo": true
+        },
+        {
+          "componente": "Acionamento de alta frequência",
+          "categoria": "SISTEMA ELETRÔNICO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 30,
+          "ativo": true
+        },
+        {
+          "componente": "Pedal de controle",
+          "categoria": "ACESSÓRIOS",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 31,
+          "ativo": true
+        },
+        {
+          "componente": "Teste de soldagem TIG",
+          "categoria": "TESTE FUNCIONAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 32,
+          "ativo": true
+        }
+      ]
+    },
+    {
+      "nome": "PLASMA",
+      "itens": [
+        {
+          "componente": "Carcaça",
+          "categoria": "INSPEÇÃO VISUAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 1,
+          "ativo": true
+        },
+        {
+          "componente": "Alça",
+          "categoria": "INSPEÇÃO VISUAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 2,
+          "ativo": true
+        },
+        {
+          "componente": "Parafusos",
+          "categoria": "INSPEÇÃO VISUAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 3,
+          "ativo": true
+        },
+        {
+          "componente": "Painel frontal",
+          "categoria": "INSPEÇÃO VISUAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 4,
+          "ativo": true
+        },
+        {
+          "componente": "Cabo de alimentação",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 5,
+          "ativo": true
+        },
+        {
+          "componente": "Plugue de alimentação",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 6,
+          "ativo": true
+        },
+        {
+          "componente": "Conectores",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 7,
+          "ativo": true
+        },
+        {
+          "componente": "Terminais",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 8,
+          "ativo": true
+        },
+        {
+          "componente": "Chaves",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 9,
+          "ativo": true
+        },
+        {
+          "componente": "Aterramento de proteção",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 10,
+          "ativo": true
+        },
+        {
+          "componente": "Retificador",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 11,
+          "ativo": true
+        },
+        {
+          "componente": "Capacitores",
+          "categoria": "PARTE ELÉTRICA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 12,
+          "ativo": true
+        },
+        {
+          "componente": "Placa eletrônica",
+          "categoria": "SISTEMA ELETRÔNICO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 13,
+          "ativo": true
+        },
+        {
+          "componente": "Display",
+          "categoria": "SISTEMA ELETRÔNICO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 14,
+          "ativo": true
+        },
+        {
+          "componente": "Potenciômetros",
+          "categoria": "SISTEMA ELETRÔNICO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 15,
+          "ativo": true
+        },
+        {
+          "componente": "Ventilador",
+          "categoria": "SISTEMA DE REFRIGERAÇÃO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 16,
+          "ativo": true
+        },
+        {
+          "componente": "Sistema de refrigeração",
+          "categoria": "SISTEMA DE REFRIGERAÇÃO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 17,
+          "ativo": true
+        },
+        {
+          "componente": "Limpeza interna",
+          "categoria": "LIMPEZA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 18,
+          "ativo": true
+        },
+        {
+          "componente": "Limpeza externa",
+          "categoria": "LIMPEZA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 19,
+          "ativo": true
+        },
+        {
+          "componente": "Teste elétrico",
+          "categoria": "TESTE FUNCIONAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 20,
+          "ativo": true
+        },
+        {
+          "componente": "Teste inicial de funcionamento",
+          "categoria": "TESTE FUNCIONAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 21,
+          "ativo": true
+        },
+        {
+          "componente": "Tocha plasma",
+          "categoria": "SISTEMA DE SOLDA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 22,
+          "ativo": true
+        },
+        {
+          "componente": "Eletrodo e bico de corte",
+          "categoria": "SISTEMA DE SOLDA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 23,
+          "ativo": true
+        },
+        {
+          "componente": "Difusor e capa da tocha",
+          "categoria": "SISTEMA DE SOLDA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 24,
+          "ativo": true
+        },
+        {
+          "componente": "Filtro de ar comprimido",
+          "categoria": "ACESSÓRIOS",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 25,
+          "ativo": true
+        },
+        {
+          "componente": "Regulador de pressão",
+          "categoria": "ACESSÓRIOS",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 26,
+          "ativo": true
+        },
+        {
+          "componente": "Mangueira de ar",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 27,
+          "ativo": true
+        },
+        {
+          "componente": "Garra negativa",
+          "categoria": "CABOS E CONEXÕES",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 28,
+          "ativo": true
+        },
+        {
+          "componente": "Arco piloto",
+          "categoria": "SISTEMA ELETRÔNICO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 29,
+          "ativo": true
+        },
+        {
+          "componente": "Teste de corte plasma",
+          "categoria": "TESTE FUNCIONAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 30,
+          "ativo": true
+        }
+      ]
+    },
+    {
+      "nome": "GERADOR",
+      "itens": [
+        {
+          "componente": "Carcaça",
+          "categoria": "INSPEÇÃO VISUAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 1,
+          "ativo": true
+        },
+        {
+          "componente": "Fixação do motor",
+          "categoria": "MOTOR",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 2,
+          "ativo": true
+        },
+        {
+          "componente": "Filtro de ar",
+          "categoria": "MOTOR",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 3,
+          "ativo": true
+        },
+        {
+          "componente": "Correias",
+          "categoria": "MOTOR",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 4,
+          "ativo": true
+        },
+        {
+          "componente": "Partida do motor",
+          "categoria": "MOTOR",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 5,
+          "ativo": true
+        },
+        {
+          "componente": "Tanque de combustível",
+          "categoria": "SISTEMA DE COMBUSTÍVEL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 6,
+          "ativo": true
+        },
+        {
+          "componente": "Mangueiras de combustível",
+          "categoria": "SISTEMA DE COMBUSTÍVEL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 7,
+          "ativo": true
+        },
+        {
+          "componente": "Filtro de combustível",
+          "categoria": "SISTEMA DE COMBUSTÍVEL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 8,
+          "ativo": true
+        },
+        {
+          "componente": "Cabo de alimentação",
+          "categoria": "SISTEMA ELÉTRICO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 9,
+          "ativo": true
+        },
+        {
+          "componente": "Disjuntores",
+          "categoria": "SISTEMA ELÉTRICO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 10,
+          "ativo": true
+        },
+        {
+          "componente": "Aterramento",
+          "categoria": "SISTEMA ELÉTRICO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 11,
+          "ativo": true
+        },
+        {
+          "componente": "Alternador",
+          "categoria": "GERAÇÃO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 12,
+          "ativo": true
+        },
+        {
+          "componente": "Regulador de tensão AVR",
+          "categoria": "GERAÇÃO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 13,
+          "ativo": true
+        },
+        {
+          "componente": "Tensão e frequência de saída",
+          "categoria": "GERAÇÃO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 14,
+          "ativo": true
+        },
+        {
+          "componente": "Bateria",
+          "categoria": "BATERIA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 15,
+          "ativo": true
+        },
+        {
+          "componente": "Terminais da bateria",
+          "categoria": "BATERIA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 16,
+          "ativo": true
+        },
+        {
+          "componente": "Nível e condição do óleo",
+          "categoria": "ÓLEO/LUBRIFICAÇÃO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 17,
+          "ativo": true
+        },
+        {
+          "componente": "Filtro de óleo",
+          "categoria": "ÓLEO/LUBRIFICAÇÃO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 18,
+          "ativo": true
+        },
+        {
+          "componente": "Vazamentos de óleo",
+          "categoria": "ÓLEO/LUBRIFICAÇÃO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 19,
+          "ativo": true
+        },
+        {
+          "componente": "Radiador",
+          "categoria": "REFRIGERAÇÃO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 20,
+          "ativo": true
+        },
+        {
+          "componente": "Ventilador",
+          "categoria": "REFRIGERAÇÃO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 21,
+          "ativo": true
+        },
+        {
+          "componente": "Nível do líquido de refrigeração",
+          "categoria": "REFRIGERAÇÃO",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 22,
+          "ativo": true
+        },
+        {
+          "componente": "Limpeza externa",
+          "categoria": "LIMPEZA",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 23,
+          "ativo": true
+        },
+        {
+          "componente": "Teste sob carga",
+          "categoria": "TESTE FUNCIONAL",
+          "descricao": "Inspecionar integridade, fixação e funcionamento conforme manual do fabricante; verificar com segurança e registrar anomalias.",
+          "obrigatorio": false,
+          "ordem": 24,
+          "ativo": true
+        }
+      ]
+    }
+  ],
+  "aliases": {
+    "MIG/MAG": "MIG"
+  }
+}

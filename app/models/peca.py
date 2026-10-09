@@ -1,0 +1,50 @@
+from app.extensions import db
+from app.utils.time import now
+from flask_login import UserMixin
+from werkzeug.security import generate_password_hash, check_password_hash
+from sqlalchemy import Index, text
+
+class Peca(db.Model):
+    id=db.Column(db.Integer,primary_key=True)
+    codigo=db.Column(db.String(60),unique=True,nullable=False,index=True)
+    descricao=db.Column(db.String(180),nullable=False,index=True)
+    marca=db.Column(db.String(120))
+    aplicacao=db.Column(db.String(180))
+    unidade=db.Column(db.String(20),default="UN",nullable=False)
+    quantidade_estoque=db.Column(db.Numeric(12,2),default=0,nullable=False)
+    estoque_minimo=db.Column(db.Numeric(12,2),default=0,nullable=False)
+    custo_unitario=db.Column(db.Numeric(14,2),default=0,nullable=False)
+    localizacao=db.Column(db.String(120))
+    ativo=db.Column(db.Boolean,default=True,nullable=False)
+    criado_em=db.Column(db.DateTime,default=now,nullable=False)
+    atualizado_em=db.Column(db.DateTime,default=now,onupdate=now,nullable=False)
+    __table_args__=(db.CheckConstraint("quantidade_estoque >= 0",name="ck_peca_saldo"),db.CheckConstraint("estoque_minimo >= 0",name="ck_peca_minimo"),db.CheckConstraint("custo_unitario >= 0",name="ck_peca_custo"))
+class SolicitacaoPeca(db.Model):
+    id=db.Column(db.Integer,primary_key=True)
+    item_id=db.Column(db.Integer,db.ForeignKey("ordem_servico_item.id"),unique=True,nullable=False)
+    peca_id=db.Column(db.Integer,db.ForeignKey("peca.id"),nullable=False)
+    quantidade=db.Column(db.Numeric(12,2),nullable=False)
+    solicitante_id=db.Column(db.Integer,db.ForeignKey("usuario.id"),nullable=False)
+    entregue_por=db.Column(db.Integer,db.ForeignKey("usuario.id"))
+    data_solicitacao=db.Column(db.DateTime,default=now,nullable=False)
+    data_entrega=db.Column(db.DateTime)
+    status=db.Column(db.String(30),default="SOLICITADA",nullable=False,index=True)
+    item=db.relationship("OrdemServicoItem",backref=db.backref("solicitacao",uselist=False))
+    peca=db.relationship("Peca")
+    solicitante=db.relationship("Usuario",foreign_keys=[solicitante_id])
+    __table_args__=(db.CheckConstraint("quantidade > 0",name="ck_solicitacao_quantidade"),db.CheckConstraint("status IN ('SOLICITADA','SEPARADA','ENTREGUE','SEM_ESTOQUE','CANCELADA')",name="ck_solicitacao_status"))
+class MovimentacaoEstoque(db.Model):
+    id=db.Column(db.Integer,primary_key=True)
+    peca_id=db.Column(db.Integer,db.ForeignKey("peca.id"),nullable=False,index=True)
+    tipo=db.Column(db.String(30),nullable=False)
+    quantidade=db.Column(db.Numeric(12,2),nullable=False)
+    estoque_anterior=db.Column(db.Numeric(12,2),nullable=False)
+    estoque_posterior=db.Column(db.Numeric(12,2),nullable=False)
+    ordem_servico_id=db.Column(db.Integer,db.ForeignKey("ordem_servico.id"))
+    solicitacao_id=db.Column(db.Integer,db.ForeignKey("solicitacao_peca.id"),unique=True)
+    usuario_id=db.Column(db.Integer,db.ForeignKey("usuario.id"),nullable=False)
+    observacao=db.Column(db.Text)
+    criado_em=db.Column(db.DateTime,default=now,nullable=False,index=True)
+    peca=db.relationship("Peca",backref="movimentacoes")
+    usuario=db.relationship("Usuario")
+    __table_args__=(db.CheckConstraint("estoque_posterior >= 0",name="ck_mov_saldo"),db.CheckConstraint("tipo IN ('ENTRADA','SAIDA_OS','AJUSTE','DEVOLUCAO')",name="ck_mov_tipo"))

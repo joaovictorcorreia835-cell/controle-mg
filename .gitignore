@@ -1,8 +1,19 @@
-.env
 .venv/
-instance/
-output/
-tmp/
+.env
 __pycache__/
 *.pyc
+instance/
+.pytest_cache/
 app/static/uploads/
+output/
+tmp/
+
+# Dados locais e ambientes não devem entrar no deploy.
+venv/
+.env.*
+!.env.example
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+uploads/

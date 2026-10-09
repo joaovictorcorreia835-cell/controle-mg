@@ -1,0 +1,42 @@
+services:
+  - type: web
+    name: controle-mg
+    runtime: python
+    plan: 0.5c-512mb
+    buildCommand: pip install -r requirements.txt
+    preDeployCommand: flask --app run db upgrade
+    startCommand: flask --app run init-production && gunicorn run:app --bind 0.0.0.0:$PORT --workers 2 --access-logfile - --error-logfile -
+    healthCheckPath: /health
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DATABASE_URL
+        fromDatabase:
+          name: controle-mg-db
+          property: connectionString
+      - key: COOKIE_SECURE
+        value: "true"
+      - key: ALLOW_MANUAL_PARTS
+        value: "false"
+      - key: PARTS_ON_DEMAND
+        value: "true"
+      - key: INITIAL_ADMIN_EMAIL
+        value: adm@controlemg.local
+      - key: INITIAL_ADMIN_PASSWORD
+        sync: false
+      - key: UPLOAD_FOLDER
+        value: /var/data/uploads
+      - key: PYTHON_VERSION
+        value: 3.14.6
+    disk:
+      name: uploads
+      mountPath: /var/data
+      sizeGB: 1
+databases:
+  - name: controle-mg-db
+    plan: 0.1c-256mb
+    postgresMajorVersion: "17"
+    diskSizeGB: 1
+    ipAllowList: []
+    databaseName: controle_mg
+    user: controle_mg
