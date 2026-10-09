@@ -1,8 +1,38 @@
 import json
 from pathlib import Path
 from app.extensions import db
-from app.models import TipoEquipamento, CategoriaChecklist, ModeloChecklist, ModeloChecklistItem
-from .common import BusinessError
+from app.models import TipoEquipamento, CategoriaChecklist, ModeloChecklist, ModeloChecklistItem, Maquina
+from .common import BusinessError, audit
+from uuid import uuid4
+
+def equipamento_por_serie(tipo_id, serie, uid, patrimonio="", localizacao="", maquina_id=None):
+    serie, patrimonio, localizacao = serie.strip(), patrimonio.strip(), localizacao.strip()
+    if not serie or len(serie)>120:
+        raise BusinessError("Digite o número de série, com até 120 caracteres.")
+    if len(patrimonio)>60 or len(localizacao)>120:
+        raise BusinessError("Patrimônio ou localização excede o tamanho permitido.")
+    tipo=db.session.get(TipoEquipamento,tipo_id)
+    if not tipo or not tipo.ativo: raise BusinessError("Selecione um tipo de equipamento ativo.")
+    machine=db.session.scalar(db.select(Maquina).where(db.func.lower(Maquina.numero_serie)==serie.lower()).with_for_update())
+    if maquina_id:
+        selected=db.session.get(Maquina,maquina_id)
+        if not selected or (machine and selected.id!=machine.id): raise BusinessError("O número de série pertence a outro equipamento.")
+        if selected.numero_serie and selected.numero_serie.lower()!=serie.lower(): raise BusinessError("O número de série não corresponde ao equipamento selecionado.")
+        machine=selected
+    if machine:
+        if not machine.ativo: raise BusinessError("Equipamento inativo. Solicite a revisão do cadastro.")
+        if machine.tipo_equipamento_id!=tipo.id: raise BusinessError("O número de série já está cadastrado em outro tipo de equipamento.")
+        if patrimonio and patrimonio!=machine.codigo_patrimonio: raise BusinessError("O patrimônio não corresponde ao cadastro desse número de série.")
+        if not machine.numero_serie:
+            machine.numero_serie=serie
+            audit(uid,"Número de série registrado na entrada",machine.id,machine.id,entity="maquina")
+        return machine
+    if patrimonio and db.session.scalar(db.select(Maquina.id).where(Maquina.codigo_patrimonio==patrimonio)):
+        raise BusinessError("Patrimônio já cadastrado. Confira o número de série do equipamento.")
+    machine=Maquina(numero_serie=serie,codigo_patrimonio=patrimonio or "EQ-"+uuid4().hex[:12].upper(),modelo=tipo.nome,tipo=tipo.nome,tipo_equipamento_id=tipo.id,localizacao=localizacao or None)
+    db.session.add(machine);db.session.flush()
+    audit(uid,"Equipamento cadastrado na entrada por número de série",machine.id,machine.id,entity="maquina")
+    return machine
 
 
 def dados_iniciais():

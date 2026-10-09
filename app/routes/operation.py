@@ -43,13 +43,19 @@ def add_photo(maintenance,file,stage,category="",caption=""):
 @transaction
 def maintenance_new():
     if request.method=="POST":
-        maintenance=criar_entrada(integer("maquina_id"),current_user.id,entered("data_entrada"),request.form.get("horimetro",0),request.form.get("defeito",""),request.form.get("condicao_visual",""),request.form.get("observacoes",""))
+        if "numero_serie" in request.form or "tipo_equipamento_id" in request.form:
+            from app.services.equipamento_service import equipamento_por_serie
+            machine=equipamento_por_serie(integer("tipo_equipamento_id"),request.form.get("numero_serie",""),current_user.id,request.form.get("codigo_patrimonio",""),request.form.get("localizacao",""),integer("maquina_id",optional=True))
+            machine_id=machine.id
+        else: machine_id=integer("maquina_id")
+        maintenance=criar_entrada(machine_id,current_user.id,entered("data_entrada"),request.form.get("horimetro",0),request.form.get("defeito",""),request.form.get("condicao_visual",""),request.form.get("observacoes",""))
         for category in ("Frente","Traseira","Lado direito","Lado esquerdo","Painel","Defeito","Outras"):
             for file in request.files.getlist("foto_"+category): add_photo(maintenance,file,"ENTRADA",category)
         flash("Entrada registrada. Próxima etapa: realizar checklist.","success")
         return redirect(url_for("operation.checklist",id=maintenance.id))
-    machines=db.session.scalars(db.select(Maquina).where(Maquina.ativo.is_(True),Maquina.status.in_(["DISPONIVEL","EM_MANUTENCAO"]),~Maquina.manutencoes.any(Manutencao.status.notin_(["FINALIZADA","CANCELADA"])))).all()
-    return render_template("maintenance_form.html",machines=machines)
+    selected=db.session.get(Maquina,request.args.get("maquina",type=int)) if request.args.get("maquina",type=int) else None
+    types=db.session.scalars(db.select(TipoEquipamento).where(TipoEquipamento.ativo.is_(True)).order_by(TipoEquipamento.nome)).all()
+    return render_template("maintenance_form.html",equipment_types=types,selected=selected)
 @bp.get("/manutencoes")
 @roles(*READ)
 def maintenances():
